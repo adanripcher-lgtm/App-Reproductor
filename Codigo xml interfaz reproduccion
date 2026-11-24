@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#FFFFFF"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- espacio superior -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <!-- Logo y titulo -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="74dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/logointerno" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:gravity="center_vertical"
+                    android:shadowColor="#FFFFFF"
+                    android:text="♪DAN MUSIC♪"
+                    android:textColor="#FF8222"
+                    android:textSize="40sp" />
+
+
+            </LinearLayout>
+
+            <!-- listado de cacniones: -->
+            <!-- CANCION 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play1"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Super Mario Bros"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share1"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue1"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play2"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Mario Bros: 1up"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share2"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue2"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play3"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Mario Bros: Tuberia"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share3"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue3"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play4"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Mario Bros: moneda"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share4"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue4"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 5-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play5"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Pacman: Game Over"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share5"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue5"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 6-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play6"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Messenger: mensaje"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share6"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue6"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 7-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play7"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text="Correcaminos: Bip Bip"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share7"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue7"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 8-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play8"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text=" Pantera Rosa"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share8"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue8"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 9-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play9"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text=" Kill Bill theme"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share9"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue9"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+            <!-- CANCION 10-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/play10"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/play" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="201dp"
+                    android:layout_height="66dp"
+                    android:gravity="center_vertical"
+                    android:text=" Auto Fantastico"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/share10"
+                    android:layout_width="42dp"
+                    android:layout_height="37dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/compartir" />
+
+                <Button
+                    android:id="@+id/blue10"
+                    android:layout_width="49dp"
+                    android:layout_height="44dp"
+                    android:background="@android:color/transparent"
+                    android:foreground="@drawable/blue" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
